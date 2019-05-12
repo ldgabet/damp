@@ -11,6 +11,7 @@ services:
                 - APACHE_ROOT_DIR=${APACHE_ROOT_DIR}
         volumes:
             - ../logs/apache:${APACHE_ROOT_DIR}/logs
+            - ../www/:${APACHE_ROOT_DIR}/htdocs
         ports:
             - ${APACHE_EXPOSED_PORT}:80
         networks:
