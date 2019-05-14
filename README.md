@@ -1,12 +1,12 @@
-# docker-web-skeleton
-Docker skeleton apache/php-fpm/mysql for existing or new web project
+# damp
+DAMP is acronym for Docker/Apache/MySQL/Php
 
 ## Introduction
 
-The docker web skeleton is a replacement of wamp/lamp/xamp based on multiple docker containers for your new or existing web projects.
+damp is a replacement of wamp/lamp/xamp based on multiple docker containers for your new or existing web projects.
 The skeleton provides 3 docker containers with Apache, PHP-FPM and MySQL.
 
-docker-web-skeleton gives you everything you need for developing web application.
+damp gives you everything you need for developing web application.
 This complete stack run with docker and docker-compose.
 
 ## Usage
