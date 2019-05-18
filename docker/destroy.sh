@@ -13,4 +13,4 @@ else
 fi
 
 docker-compose down --volumes
-docker rmi "$projectName"_apache_img "$projectName"_php_img
+docker rmi "$projectName"_apache_img "$projectName"_php_img "$projectName"_mysql_img
